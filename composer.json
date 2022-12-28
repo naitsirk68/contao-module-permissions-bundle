@@ -13,13 +13,13 @@
     "require": {
         "php": ">=7.2",
         "contao/core-bundle": ">=4.4",
-        "symfony/framework-bundle": "^3.3"
+        "symfony/framework-bundle": ">=3.3"
     },
     "require-dev": {
-      "contao/manager-plugin": "^2.0",
-      "doctrine/doctrine-cache-bundle": "^1.3",
-      "phpunit/phpunit": "^5.7.26",
-      "symfony/phpunit-bridge": "^3.2"
+      "contao/manager-plugin": "^>=2.0",
+      "doctrine/doctrine-cache-bundle": ">=1.3",
+      "phpunit/phpunit": ">=5.7.26",
+      "symfony/phpunit-bridge": ">=3.2"
     },
     "extra": {
       "contao-manager-plugin": "SeptemberWerbeagentur\\ContaoModulePermissionsBundle\\ContaoManager\\Plugin"
