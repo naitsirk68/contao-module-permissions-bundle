@@ -1,9 +1,10 @@
 {
-    "name": "september-werbeagentur/contao-module-permissions-bundle",
+    "name": "naitsirk68/contao-module-permissions-bundle",
     "description": "module permissions extension for Contao Open Source CMS",
     "keywords": ["contao", "module", "permissions"],
     "type": "contao-module",
     "license": "LGPL-3.0+",
+    "version": "2.0.0";
     "authors": [
         {
             "name": "Codefog",
@@ -22,11 +23,11 @@
       "symfony/phpunit-bridge": ">=3.2"
     },
     "extra": {
-      "contao-manager-plugin": "SeptemberWerbeagentur\\ContaoModulePermissionsBundle\\ContaoManager\\Plugin"
+      "contao-manager-plugin": "naitsirk68\\ContaoModulePermissionsBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
       "psr-4": {
-        "SeptemberWerbeagentur\\ContaoModulePermissionsBundle\\": "src/"
+        "naitsirk68\\ContaoModulePermissionsBundle\\": "src/"
       }
     }
 }
